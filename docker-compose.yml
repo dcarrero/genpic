@@ -1,0 +1,119 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: genpic-app
+    restart: unless-stopped
+    ports:
+      - "8101:8000"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      mariadb:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+      - APP_URL=http://localhost:8101
+      - DB_HOST=mariadb
+      - DB_DATABASE=genpic
+      - DB_USERNAME=genpic
+      - DB_PASSWORD=secret
+      - REDIS_HOST=redis
+      - QUEUE_CONNECTION=redis
+      - CACHE_STORE=redis
+      - SESSION_DRIVER=redis
+      - MAIL_MAILER=smtp
+      - MAIL_HOST=mailpit
+      - MAIL_PORT=1025
+      - MAIL_FROM_ADDRESS=noreply@example.com
+      - MAIL_FROM_NAME=GenPic
+      - FAL_AI_KEY=${FAL_AI_KEY}
+      - FAL_AI_ENABLED=true
+      - OPENROUTER_ENABLED=true
+    networks:
+      - genpic
+
+  mariadb:
+    image: mariadb:10.11
+    container_name: genpic-db
+    restart: unless-stopped
+    ports:
+      - "33061:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: genpic
+      MYSQL_USER: genpic
+      MYSQL_PASSWORD: secret
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - genpic
+
+  redis:
+    image: redis:7-alpine
+    container_name: genpic-redis
+    restart: unless-stopped
+    ports:
+      - "63791:6379"
+    networks:
+      - genpic
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: genpic-mailpit
+    restart: unless-stopped
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    networks:
+      - genpic
+
+  queue:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: genpic-queue
+    restart: unless-stopped
+    command: php artisan horizon
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      mariadb:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    environment:
+      - APP_ENV=local
+      - DB_HOST=mariadb
+      - DB_DATABASE=genpic
+      - DB_USERNAME=genpic
+      - DB_PASSWORD=secret
+      - REDIS_HOST=redis
+      - QUEUE_CONNECTION=redis
+      - CACHE_STORE=redis
+      - MAIL_MAILER=smtp
+      - MAIL_HOST=mailpit
+      - MAIL_PORT=1025
+      - MAIL_FROM_ADDRESS=noreply@example.com
+      - MAIL_FROM_NAME=GenPic
+      - FAL_AI_KEY=${FAL_AI_KEY}
+      - FAL_AI_ENABLED=true
+      - OPENROUTER_ENABLED=true
+    networks:
+      - genpic
+
+volumes:
+  mariadb_data:
+
+networks:
+  genpic:
+    driver: bridge

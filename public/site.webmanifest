@@ -1,0 +1,11 @@
+{
+    "name": "GenPic",
+    "short_name": "GenPic",
+    "icons": [
+        { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+    ],
+    "theme_color": "#7A2D3B",
+    "background_color": "#FDF8F4",
+    "display": "standalone"
+}

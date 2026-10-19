@@ -5,7 +5,7 @@ it failed commercially.** Laravel 11 · Livewire 3 · Filament 3 · Stripe · fa
 
 [Leer en español](README-ES.md)
 
-![GenPic home page](docs/screenshots/01-home-hero.jpg)
+![GenPic home page](docs/screenshots/01-home-hero-en.jpg)
 
 ## What it was, and what happened
 
@@ -29,20 +29,20 @@ probably something here you can take.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/05-style-detail-anime.jpg" alt="Before/after slider on a style page"></td>
-    <td width="50%"><img src="docs/screenshots/07-gallery.jpg" alt="Gallery of before/after examples"></td>
+    <td width="50%"><img src="docs/screenshots/05-style-detail-anime-en.jpg" alt="Before/after slider on a style page"></td>
+    <td width="50%"><img src="docs/screenshots/07-gallery-en.jpg" alt="Gallery of before/after examples"></td>
   </tr>
   <tr>
     <td><b>Style page</b>: drag to compare the photo and the portrait</td>
     <td><b>Gallery</b>: 36 before/after pairs</td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/09-landing-photo-to-painting.jpg" alt="Photo to painting landing page"></td>
+    <td><img src="docs/screenshots/09-landing-photo-to-painting-en.jpg" alt="Photo to painting landing page"></td>
     <td><img src="docs/screenshots/30-admin-dashboard.jpg" alt="Admin dashboard"></td>
   </tr>
   <tr>
     <td><b>Landing pages</b>: ten of them, each with its own layout</td>
-    <td><b>Admin</b>: revenue, conversion and AI cost (the zeros are real)</td>
+    <td><b>Admin</b>: revenue, conversion and AI cost (the zeros are real; the admin panel is in Spanish)</td>
   </tr>
   <tr>
     <td><img src="docs/screenshots/32-admin-ai-configuration.jpg" alt="AI provider configuration"></td>
@@ -56,8 +56,8 @@ probably something here you can take.
 
 <table>
   <tr>
-    <td width="25%"><img src="docs/screenshots/20-mobile-home.jpg" alt="Home page on a phone"></td>
-    <td width="25%"><img src="docs/screenshots/21-mobile-style-detail.jpg" alt="Style page on a phone"></td>
+    <td width="25%"><img src="docs/screenshots/20-mobile-home-en.jpg" alt="Home page on a phone"></td>
+    <td width="25%"><img src="docs/screenshots/21-mobile-style-detail-en.jpg" alt="Style page on a phone"></td>
     <td width="50%"><b>Mobile</b>: home and style page on a phone.</td>
   </tr>
 </table>
@@ -67,27 +67,27 @@ probably something here you can take.
 
 | | |
 |---|---|
-| ![Style catalog](docs/screenshots/04-styles-catalog.jpg) | ![Another style page](docs/screenshots/06-style-detail-african-royal.jpg) |
+| ![Style catalog](docs/screenshots/04-styles-catalog-en.jpg) | ![Another style page](docs/screenshots/06-style-detail-african-royal-en.jpg) |
 | Style catalog, filterable by category | Another style page |
 | ![Photo upload](docs/screenshots/40-create-upload.jpg) | ![Face detection after upload](docs/screenshots/41-create-face-detection.jpg) |
-| Upload | Face detection, in the browser, before anything is sent |
-| ![Professional photos landing](docs/screenshots/08-landing-professional.jpg) | ![Valentine's Day landing](docs/screenshots/10-landing-valentines.jpg) |
+| Upload (Spanish UI) | Face detection, in the browser, before anything is sent (Spanish UI) |
+| ![Professional photos landing](docs/screenshots/08-landing-professional-en.jpg) | ![Valentine's Day landing](docs/screenshots/10-landing-valentines-en.jpg) |
 | Professional photos landing | Valentine's Day landing |
-| ![Home page in English](docs/screenshots/12-home-en.jpg) | ![Home page in French](docs/screenshots/13-home-fr.jpg) |
-| English | French |
-| ![My downloads](docs/screenshots/14-my-downloads.jpg) | ![404 page](docs/screenshots/42-error-404.jpg) |
-| Recovering past portraits by email | 404 page |
-| ![Closing page](docs/screenshots/03-closing-page.jpg) | ![Create page answering 410 in closed mode](docs/screenshots/15-create-closed-410.jpg) |
-| Closed mode: how the site said goodbye | `/create` answering 410 in closed mode |
+| ![Home page in Spanish](docs/screenshots/01-home-hero.jpg) | ![Home page in French](docs/screenshots/13-home-fr.jpg) |
+| Spanish (the default language) | French |
+| ![My downloads](docs/screenshots/14-my-downloads-en.jpg) | ![404 page](docs/screenshots/42-error-404.jpg) |
+| Recovering past portraits by email | 404 page (error pages only came in Spanish) |
+| ![Closing page](docs/screenshots/03-closing-page-en.jpg) | ![Create page answering 410 in closed mode](docs/screenshots/15-create-closed-410.jpg) |
+| Closed mode: how the site said goodbye | `/create` answering 410 in closed mode (Spanish only) |
 | ![Admin style list](docs/screenshots/31-admin-styles.jpg) | ![AI provider logs](docs/screenshots/34-admin-provider-logs.jpg) |
 | Admin: styles | Admin: one log line per AI call, with its cost |
 | ![Admin gallery examples](docs/screenshots/35-admin-gallery-examples.jpg) | ![Admin products](docs/screenshots/36-admin-products.jpg) |
 | Admin: gallery examples | Admin: products |
-| ![Mobile gallery](docs/screenshots/22-mobile-gallery.jpg) | ![Mobile closing page](docs/screenshots/23-mobile-closing.jpg) |
+| ![Mobile gallery](docs/screenshots/22-mobile-gallery-en.jpg) | ![Mobile closing page](docs/screenshots/23-mobile-closing-en.jpg) |
 | Mobile gallery | Mobile closing page |
 
-Full-page captures: [home](docs/screenshots/02-home-full.jpg) and
-[family photos landing](docs/screenshots/11-landing-family-full.jpg).
+Full-page captures: [home](docs/screenshots/02-home-full-en.jpg) and
+[family photos landing](docs/screenshots/11-landing-family-full-en.jpg).
 
 </details>
 

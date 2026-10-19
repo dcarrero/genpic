@@ -43,4 +43,15 @@ parts of them describe plans that changed later; the code is the reference.
 
 [screenshots/](screenshots/) holds the site as it ran in production in 2026:
 public pages (01–15), mobile (20–23), the admin panel (30–38, with personal
-data blurred) and the upload flow (40–42).
+data blurred) and the upload flow (40–42). Files ending in `-en` are the English
+versions of the public pages.
+
+## Author
+
+Built by **David Carrero Fernández-Baillo** ([carrero.es](https://carrero.es)) at
+[Color Vivo](https://colorvivo.com).
+
+## License
+
+[MIT](../LICENSE) © 2026 David Carrero Fernández-Baillo ([carrero.es](https://carrero.es))
+and Color Vivo Internet S.L. ([colorvivo.com](https://colorvivo.com))

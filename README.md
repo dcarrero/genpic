@@ -18,12 +18,16 @@ the clean file.
 It ran at genpic.com from March to October 2026, in five languages, taking
 real payments through Stripe with EU VAT handled. People generated plenty of
 free previews. **Nobody bought one.** Zero sales. Sign-ups and checkout were
-closed in September 2026 and the domain was retired in October.
+closed in September 2026, and in October the app was switched off;
+[genpic.com](https://genpic.com) now only hosts a short farewell page.
 
 The code, though, was finished, tested and running in production, and binning
 it seemed a waste. So here it is, MIT-licensed. If you're building anything
 with AI image generation, paid downloads or a multilingual Laravel site, there's
 probably something here you can take.
+
+The full story of the closure, in Spanish, is on the Color Vivo blog:
+[GenPic cierra sin una sola venta y libera su código con licencia MIT](https://colorvivo.com/genpic-cierra-sin-ventas-libera-codigo-mit/).
 
 ## Screenshots
 

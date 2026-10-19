@@ -19,12 +19,16 @@ si querías el archivo limpio.
 Estuvo en genpic.com de marzo a octubre de 2026, en cinco idiomas y con pagos
 reales por Stripe, IVA europeo incluido. Se generaron muchísimas vistas previas
 gratis y **nadie compró ninguna**: cero ventas. En septiembre de 2026 se
-cerraron las altas y los pagos, y en octubre se dio de baja el dominio.
+cerraron las altas y los pagos, y en octubre se apagó la aplicación;
+[genpic.com](https://genpic.com) solo muestra ya una página de despedida.
 
 El código, en cambio, estaba acabado, tenía tests y funcionaba en producción,
 así que tirarlo nos parecía un desperdicio. Aquí lo tienes con licencia MIT. Si
 estás montando algo con generación de imágenes por IA, descargas de pago o una
 web Laravel en varios idiomas, seguramente encuentres algo que aprovechar.
+
+La historia completa del cierre está en el blog de Color Vivo:
+[GenPic cierra sin una sola venta y libera su código con licencia MIT](https://colorvivo.com/genpic-cierra-sin-ventas-libera-codigo-mit/).
 
 ## Capturas
 

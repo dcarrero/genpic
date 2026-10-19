@@ -196,7 +196,8 @@ Built by **David Carrero Fernández-Baillo** ([carrero.es](https://carrero.es)) 
 
 ## License
 
-[MIT](LICENSE) © 2026 David Carrero Fernández-Baillo
+[MIT](LICENSE) © 2026 David Carrero Fernández-Baillo ([carrero.es](https://carrero.es))
+and Color Vivo Internet S.L. ([colorvivo.com](https://colorvivo.com))
 
 The gallery "before" photos come from Unsplash under the Unsplash License
 ([credits](public/img/gallery/CREDITS.md)). The fonts in `public/fonts/` are

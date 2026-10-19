@@ -204,7 +204,8 @@ Lo hizo **David Carrero Fernández-Baillo** ([carrero.es](https://carrero.es)) e
 
 ## Licencia
 
-[MIT](LICENSE) © 2026 David Carrero Fernández-Baillo
+[MIT](LICENSE) © 2026 David Carrero Fernández-Baillo ([carrero.es](https://carrero.es))
+y Color Vivo Internet S.L. ([colorvivo.com](https://colorvivo.com))
 
 Las fotos «antes» de la galería son de Unsplash, con la Unsplash License
 ([créditos](public/img/gallery/CREDITS.md)). Las fuentes de `public/fonts/`

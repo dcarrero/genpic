@@ -117,7 +117,7 @@ código se publica. Familia *Contenido* de `design.md` — Long Document, prosa,
 sin tarjetas ni iconos.
 
 ### Añadido
-- `LICENSE` — MIT, Color Vivo Internet S.L.
+- `LICENSE` — MIT, David Carrero Fernández-Baillo
 - `plans/012-liberacion-open-source.md` — plan de liberación con la auditoría
   del repo: qué puede salir, qué no, y por qué.
 - `docs/capturas-web-2026-09/` — capturas del servicio funcionando, tomadas

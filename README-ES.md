@@ -197,9 +197,14 @@ El servicio está cerrado y no hay hoja de ruta. Puedes abrir issues y pull
 requests, pero no hay compromiso de mantenimiento. Mira
 [CONTRIBUTING.md](CONTRIBUTING.md) y [SECURITY.md](SECURITY.md).
 
+## Autor
+
+Lo hizo **David Carrero Fernández-Baillo** ([carrero.es](https://carrero.es)) en
+[Color Vivo](https://colorvivo.com).
+
 ## Licencia
 
-[MIT](LICENSE) © 2026 Color Vivo Internet S.L.
+[MIT](LICENSE) © 2026 David Carrero Fernández-Baillo
 
 Las fotos «antes» de la galería son de Unsplash, con la Unsplash License
 ([créditos](public/img/gallery/CREDITS.md)). Las fuentes de `public/fonts/`

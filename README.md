@@ -189,9 +189,14 @@ The service is closed and there is no roadmap. Issues and pull requests are
 welcome, but there's no promise of maintenance. See
 [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
+## Author
+
+Built by **David Carrero Fernández-Baillo** ([carrero.es](https://carrero.es)) at
+[Color Vivo](https://colorvivo.com).
+
 ## License
 
-[MIT](LICENSE) © 2026 Color Vivo Internet S.L.
+[MIT](LICENSE) © 2026 David Carrero Fernández-Baillo
 
 The gallery "before" photos come from Unsplash under the Unsplash License
 ([credits](public/img/gallery/CREDITS.md)). The fonts in `public/fonts/` are
